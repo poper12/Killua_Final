@@ -91,7 +91,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
-   
+   #8104175594:AAE--rOpvYm00jmxIkBkUcFGd0Lk5z-wpG4
 
 class Txt(object):
     about = f"""<b>😈 My Name :</b> <a href='https://t.me/KILLUA_REBOT'>Killua Zoldyck 😈 </a>
@@ -99,6 +99,6 @@ class Txt(object):
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>📢 Channel :</b> <a href='https://t.me/Manga_Campus'>Manga_Campus</a>
-
     
 <b>😈 Bot Made By :</b> @Aaru_2074"""
+    
