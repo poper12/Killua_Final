@@ -1,6 +1,6 @@
 from aiohttp import web
 from plugins import web_server
-import pyromod.listen
+
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode
 import sys
@@ -77,7 +77,7 @@ class Bot(Client):
             self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Adult_18_Contents For Support")
             sys.exit()
 
-        self.set_parse_mode(ParseMode.HTML)
+        
         self.LOGGER(__name__).info(f"Bot Running...!\n\nCreated By \nhttps://t.me/Aaru_2074")
         self.LOGGER(__name__).info(f"""Aaru""")
         self.username = usr_bot_me.username
