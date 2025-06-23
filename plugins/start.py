@@ -133,11 +133,21 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-            InlineKeyboardButton('⚡ 𝙹𝚘𝚒𝚗 𝙲𝚑𝚊𝚗𝚗𝚎𝚕 ⚡', url=f'https://t.me/Manga_Campus_Chat')
+            InlineKeyboardButton('📺 Anime Channel', url='https://t.me/Anime_Harvest'),
+            InlineKeyboardButton('📚 Manga/Hua/Us Channel', url='https://t.me/Manga_Campus')
         ],
         [
-            InlineKeyboardButton('⛩ 𝙰𝚋𝚘𝚞𝚝', 'about'),
-            InlineKeyboardButton('🔐 𝙲𝚕𝚘𝚜𝚎', 'close')
+            InlineKeyboardButton('💬 Chat GC / Request More', url='https://t.me/Manga_Campus_Chat')
+        ],
+        [
+            InlineKeyboardButton('⛩ About', callback_data='about'),
+            InlineKeyboardButton('🔐 Close', callback_data='close')
+        ],
+        [
+            InlineKeyboardButton('🌐 Network', url='https://t.me/The_Awakeners')
+        ],
+        [
+            InlineKeyboardButton('👤 Owner', url='https://t.me/Aaru_2075')
         ]
             ]
         )
