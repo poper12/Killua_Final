@@ -38,7 +38,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the REQUEST_CHANNEL_1 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {REQUEST_CHANNEL_1}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Adult_18_Contents for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Manga_Campus_Chat for support")
                 sys.exit()
         if REQUEST_CHANNEL_2:
             try:
@@ -48,7 +48,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(b)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the REQUEST_CHANNEL_2 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {REQUEST_CHANNEL_2}")
-                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Adult_18_Contents for support")
+                self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Manga_Campus_Chat for support")
                 sys.exit()
 
         if FORCE_SUB_CHANNEL:
@@ -62,7 +62,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot Can't Export Invite link From Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double Check The FORCE_SUB_CHANNEL Value And Make Sure Bot Is Admin In Channel With Invite Users Via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL}")
-                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/Adult_18_Contents For Support")
+                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/Manga_Campus_Chat For Support")
                 sys.exit()
 
 
@@ -74,7 +74,7 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__).warning(e)
             self.LOGGER(__name__).warning(f"Make Sure Bot Is Admin In DB Channel, And Double Check The CHANNEL_ID Value, Current Value: {CHANNEL_ID}")
-            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Adult_18_Contents For Support")
+            self.LOGGER(__name__).info("\nBot Stopped. Join https://t.me/Manga_Campus_Chat For Support")
             sys.exit()
 
         
