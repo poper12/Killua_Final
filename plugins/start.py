@@ -134,13 +134,14 @@ async def start_command(client: Client, message: Message):
             [
                 [
               InlineKeyboardButton("📺 Anime Channel", url="https://t.me/Anime_Harvest"),
-              InlineKeyboardButton("📚 Manga/Hua/Us Channel", url="https://t.me/Manga_Campus")
+              InlineKeyboardButton("📚 Manga/hwa/us Channel", url="https://t.me/Manga_Campus")
         ],
         [
             InlineKeyboardButton("💬 Chat GC / Request More", url="https://t.me/Manga_Campus_Chat")
         ],
         [
-            InlineKeyboardButton("👤 Owner", url="https://t.me/Aaru_2075")
+            InlineKeyboardButton('🌐 Network', text='🌐 Network', url='https://t.me/The_Awakeners'),
+            InlineKeyboardButton('👤 Owner', url='https://t.me/Aaru_2075')
         ],
         [  
             InlineKeyboardButton("⛩ 𝙰𝚋𝚘𝚞𝚝", callback_data="about"),
