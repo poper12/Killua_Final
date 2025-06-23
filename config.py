@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME :</b>\n{uptime}"
 
 USER_REPLY_TEXT = "<blockquote>❌𝗗𝗼𝗻'𝘁 𝘀𝗲𝗻𝗱 𝗺𝗲 𝗱𝗶𝗿𝗲𝗰𝘁 𝗺𝗲𝘀𝘀𝗮𝗴𝗲𝘀 𝗶𝗻 𝗱𝗺, 𝗱𝗼 𝘆𝗼𝘂 𝗵𝗮𝘃𝗲 𝗮 𝗱𝗲𝗮𝘁𝗵 𝘄𝗶𝘀𝗵?</blockquote>"
 
-START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>Moshi Moshi Senpai {mention}</blockquote></b>\n\n<b>I'm Killua Zoldyck a Filestore bot of @Anime_Harvest,</b>\n<blockquote><i>『 Not killing people is really hard. Clean living is tough. 』</i></blockquote>\n\n<blockquote><b>𝙁𝙤𝙧 𝙈𝙤𝙧𝙚 𝘼𝙣𝙞𝙢𝙚 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Harvest</b></blockquote>\n<blockquote><b>𝙁𝙤𝙧 𝙈𝙖𝙣𝙜𝙖/𝙝𝙬𝙖/𝙪𝙖 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Manga_Campus</b></blockquote>")
+START_MSG = os.environ.get("START_MESSAGE", "<b><blockquote>Moshi Moshi Senpai {mention}</blockquote></b>\n\n<b>I'm Killua Zoldyck a Filestore bot of @Anime_Harvest,</b>\n<blockquote><i>『 Not killing people is really hard. Clean living is tough. 』</i></blockquote>") #\n\n<blockquote><b>𝙁𝙤𝙧 𝙈𝙤𝙧𝙚 𝘼𝙣𝙞𝙢𝙚 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Harvest</b></blockquote>\n<blockquote><b>𝙁𝙤𝙧 𝙈𝙖𝙣𝙜𝙖/𝙝𝙬𝙖/𝙪𝙖 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Manga_Campus</b></blockquote>
 
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "Hᴇʟʟᴏ Sᴇɴᴘᴀɪ {mention}\n\n<b>Yᴏᴜ Nᴇᴇᴅ Tᴏ Jᴏɪɴ Iɴ Mʏ Cʜᴀɴɴᴇʟs Tᴏ Gᴇᴛ Fɪʟᴇs</b>")
 
