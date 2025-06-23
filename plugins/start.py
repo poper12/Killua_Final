@@ -140,7 +140,6 @@ async def start_command(client: Client, message: Message):
             InlineKeyboardButton("💬 Chat GC / Request More", url="https://t.me/Manga_Campus_Chat")
         ],
         [
-            InlineKeyboardButton("🌐 Network", url="https://t.me/The_Awakeners"),
             InlineKeyboardButton("👤 Owner", url="https://t.me/Aaru_2075")
         ],
         [  
