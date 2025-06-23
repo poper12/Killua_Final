@@ -45,7 +45,7 @@ except ValueError:
 
 
 
-CUSTOM_CAPTION = os.environ.get("", None)
+CUSTOM_CAPTION = os.environ.get("<blockquote><b>𝗡𝗘𝗧𝗪𝗢𝗥𝗞: @The_Awakeners</b></blockquote>", None)
 
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
 
