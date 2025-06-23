@@ -100,5 +100,5 @@ class Txt(object):
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
 <b>📢 Channel :</b> <a href='https://t.me/Manga_Campus'>Manga_Campus</a>
     
-<b>😈 Bot Made By :</b> @Aaru_2074"""
+<b>😈 Bot Made By :</b> @Aaru_2075"""
     
