@@ -118,7 +118,7 @@ async def start_command(client: Client, message: Message):
                 pass
 
         if FILE_AUTO_DELETE > 0:
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<blockquote><b>❗️ <u>𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧</u> ❗️</b></blockquote>\n\n<b>📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.</b>\n\n<blockquote>𝙁𝙤𝙧 𝙈𝙤𝙧𝙚 𝘼𝙣𝙞𝙢𝙚 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Harvest</blockquote>\n<blockquote>𝙁𝙤𝙧 𝙈𝙖𝙣𝙜𝙖/𝙝𝙬𝙖/𝙪𝙖 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Manga_Campus</blockquote>")
+            k = await client.send_message(chat_id = message.from_user.id, text=f"<blockquote><b>❗️ <u>𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧</u> ❗️</b></blockquote>\n\n<blockquote><b>Tʜɪs Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ {file_auto_delete} minutes (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</b></blockquote>\n<blockquote><b>📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.</b></blockquote>\n\n<blockquote>𝙁𝙤𝙧 𝙈𝙤𝙧𝙚 𝘼𝙣𝙞𝙢𝙚 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Harvest</blockquote>\n<blockquote>𝙁𝙤𝙧 𝙈𝙖𝙣𝙜𝙖/𝙝𝙬𝙖/𝙪𝙖 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Manga_Campus</blockquote>")
             asyncio.create_task(delete_files(madflix_msgs, client, k))
         
         # for madflix_msg in madflix_msgs: 
