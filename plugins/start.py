@@ -117,9 +117,22 @@ async def start_command(client: Client, message: Message):
             except:
                 pass
 
-        if FILE_AUTO_DELETE > 0:
-            k = await client.send_message(chat_id = message.from_user.id, text=f"<b>❗️ <u>𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧</u> ❗️</b>\n\n<b>Tʜɪs Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ {file_auto_delete} (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</b>.\n\n<b>📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.</b>")
-            asyncio.create_task(delete_files(madflix_msgs, client, k))
+       if FILE_AUTO_DELETE > 0:
+    message_text = (
+        "<blockquote><b>❗️ <u>𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧</u> ❗️</b></blockquote>\n\n"
+        f"<b>Tʜɪs Fɪʟᴇ Wɪʟʟ Bᴇ Dᴇʟᴇᴛᴇᴅ Iɴ {file_auto_delete} (Dᴜᴇ Tᴏ Cᴏᴘʏʀɪɢʜᴛ Issᴜᴇs)</b>\n\n"
+        "<b>📌 Pʟᴇᴀsᴇ Fᴏʀᴡᴀʀᴅ Tʜɪs Fɪʟᴇ Tᴏ Sᴏᴍᴇᴡʜᴇʀᴇ Eʟsᴇ Aɴᴅ Sᴛᴀʀᴛ Dᴏᴡɴʟᴏᴀᴅɪɴɢ Tʜᴇʀᴇ.</b>\n\n"
+        "<blockquote>𝙁𝙤𝙧 𝙈𝙤𝙧𝙚 𝘼𝙣𝙞𝙢𝙚 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Anime_Harvest</blockquote>\n"
+        "<blockquote>𝙁𝙤𝙧 𝙈𝙖𝙣𝙜𝙖/𝙈𝙖𝙣𝙝𝙪𝙖/𝙈𝙖𝙣𝙝𝙪𝙖 𝘾𝙝𝙚𝙘𝙠𝙤𝙪𝙩: @Manga_Campus</blockquote>"
+    )
+
+    k = await client.send_message(
+        chat_id=message.from_user.id,
+        text=message_text,
+        parse_mode="html"
+    )
+    asyncio.create_task(delete_files(madflix_msgs, client, k))
+
         
         # for madflix_msg in madflix_msgs: 
             # try:
