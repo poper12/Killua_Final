@@ -134,7 +134,7 @@ async def start_command(client: Client, message: Message):
             [
                 [
               InlineKeyboardButton("📺 Anime Channel", url="https://t.me/Anime_Harvest"),
-              InlineKeyboardButton("📚 Manga/hwa/us Channel", url="https://t.me/Manga_Campus")
+              InlineKeyboardButton("📚 Manga Channel", url="https://t.me/Manga_Campus")
         ],
         [
             InlineKeyboardButton("💬 Chat GC / Request More", url="https://t.me/Manga_Campus_Chat")
